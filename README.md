@@ -11,6 +11,8 @@ Locating reservations via, passangers name, reservation number or transit;
 
 HUD not YET implemented;
 
+Enums not in Use;
+
 SQL database not yet implemented.;
 
 Instances of Customers (PASSANGER) and Reservations stored in their respective ArrayLists;
