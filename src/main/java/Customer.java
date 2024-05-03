@@ -5,6 +5,14 @@ public class Customer {
     private int age;
     private int reservationNumber;
 
+    /**
+     * Customer constructor
+     * @param name
+     * @param surname
+     * @param age
+     * @param phonenumber
+     * @param reservationNumber
+     */
     public Customer(String name, String surname, int age, String phonenumber, int reservationNumber){
      this.name = name;
      this.surname = surname;
@@ -19,14 +27,6 @@ public class Customer {
 
     public String getSurname() {
         return surname;
-    }
-
-    public String getPhoneNumber() {
-        return phoneNumber;
-    }
-
-    public int getAge() {
-        return age;
     }
 
     public int getReservationNumber() {

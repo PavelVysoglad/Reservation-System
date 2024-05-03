@@ -8,6 +8,11 @@ public class Main {
         int input;
         reservationPortal.openingStatement();
         do {
+            /**
+             * Solved issue of console menu displaying right after last user input
+             * solved by short pause before displaying menu
+             * in version containing HUD - will not be needed
+             */
             try {
                 Thread.sleep(5000);
             } catch (InterruptedException e) {
@@ -15,6 +20,9 @@ public class Main {
             }
             reservationPortal.openingMenu();
             input = Integer.parseInt(scanner.nextLine());
+            /**
+             * Simple switch to navigate user by user input in console
+             */
             switch (input){
                 case 1:
                     reservationPortal.createCustomer();
